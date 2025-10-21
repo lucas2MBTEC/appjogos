@@ -1,1 +1,56 @@
-   
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de front </title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Montserrat:wght@400;600;800&family=Open+Sans:wght@300;400;700&display=swap');
+        
+        :root {
+            --fonte-titulo: 'Montserrat', sans-serif;
+            --fonte-destaque: 'Roboto', sans-serif;
+            --fonte-texto: 'Open Sans', sans-serif;
+        }
+
+        body {
+            font-family: var(--fonte-texto);
+            padding: 20px;
+        }
+
+        h1 {
+            font-family: var(--fonte-titulo);
+            font-weight: 800;
+        }
+
+        h2 {
+            font-family: var(--fonte-titulo);
+            font-weight: 600;
+        }
+
+        .destaque {
+            font-family: var(--fonte-destaque);
+            font-weight: 750;
+            background: rgba(6, 127, 188, 0.405);
+        }
+
+        .texto-leve {
+            font-family: var(--fonte-texto);
+            font-weight: 300;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+    
+    <p>Lorem ipsum dolor sit amet, <span class="destaque"> infeliz</span>. Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque cupiditate ratione, laboriosam fugiat blanditiis voluptas eligendi sunt accusamus expedita! Corrupti maiores corporis officia eaque vitae necessitatibus totam beatae distinctio molestiae?</p>
+    
+    <h2>Duis Aute Irure</h2>
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, dolores blanditiis! Fugiat, ipsa sapiente, mollitia enim eius quia recusandae est corrupti iusto praesentium aperiam, accusamus maxime esse voluptatibus ducimus sequi.</p>
+    
+    <p class="texto-leve">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum totam saepe voluptatibus, ab fuga quaerat, quas sint soluta delectus illum placeat repellendus corrupti, odio nobis repudiandae debitis? Doloremque, enim assumenda?</p>
+</body>
+</html>
